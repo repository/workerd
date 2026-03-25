@@ -13825,6 +13825,7 @@ export declare namespace TailStream {
       | TraceEventInfo
       | HibernatableWebSocketEventInfo
       | CustomEventInfo;
+    readonly spanKind: SpanKind;
   }
   interface Outcome {
     readonly type: "outcome";
