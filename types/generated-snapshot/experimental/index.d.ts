@@ -14606,6 +14606,7 @@ declare namespace TailStream {
     // id for the span being opened by this SpanOpen event.
     readonly spanId: string;
     readonly info?: FetchEventInfo | JsRpcEventInfo | Attributes;
+    readonly spanKind: SpanKind;
   }
   interface SpanClose {
     readonly type: "spanClose";
